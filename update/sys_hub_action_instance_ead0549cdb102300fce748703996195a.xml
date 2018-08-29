@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Calculate daysAgo Date">67ac84d8db102300fce74870399619b9</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Calculate daysAgo Date">67ac84d8db102300fce74870399619b9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Find and close long overdue tasks">6ad01c1cdb102300fce74870399619b9</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-29 00:43:57</sys_created_on>
+        <sys_id>ead0549cdb102300fce748703996195a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ead0549cdb102300fce748703996195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-29 00:43:57</sys_updated_on>
+        <ui_id>fd4613be-58b1-41f9-95ca-e344aaef7a3f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ead0549cdb102300fce748703996195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ead0549cdb102300fce748703996195a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-29 00:43:57</sys_created_on>
+        <sys_id>eed0549cdb102300fce748703996195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-29 00:43:57</sys_updated_on>
+        <value/>
+        <variable display_value="">27ac8cd8db102300fce74870399619fe</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ead0549cdb102300fce748703996195a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_days_ago</field>
+        <id>ead0549cdb102300fce748703996195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-29 00:43:57</sys_created_on>
+        <sys_id>6ed0549cdb102300fce748703996195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-29 00:43:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_67ac84d8db102300fce74870399619b9</table>
+        <value>{{ff2cab35-e492-424b-8460-f3acd4cc0ddf.property_value}}</value>
+    </sys_element_mapping>
+</record_update>
